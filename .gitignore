@@ -1,0 +1,78 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Directory for Maven
+target/
+
+# Directory for Gradle
+build/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# NetBeans project files
+nbproject/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper files
+.mvn/wrapper/
+
+# Gradle wrapper files
+gradle/wrapper/
+
+# Environment files
+.env
+
+# JAR files
+*.jar
+*.war
+*.ear
+
+# Compiled Java files
+*.class
+
+# Backup files
+*~ 
+*.swp
+*.swo
+
+# Dependency directories
+.gradle/
+.m2/
+
+# MacOS Finder files
+*.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Linux trash directory
+.Trash-*
+
+# JetBrains IDEs
+*.idea/
+*.iws
+*.iml
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
