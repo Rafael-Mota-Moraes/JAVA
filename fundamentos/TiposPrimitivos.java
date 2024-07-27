@@ -3,7 +3,7 @@ public class TiposPrimitivos {
 		byte idade = 25;
 		short ano = 2024;
 		int populacaoCidade = 35000;
-		long populacaoMundial = 800000000;
+		long populacaoMundial = 800000000l;
 		float altura = 1.65f;
 		double salario = 2500.00;
 		boolean estudante = true;
