@@ -14,6 +14,10 @@ class Funcionario {
 		this.idade = idade;
 	}
 
+	Funcionario(String nome) {
+		this.nome = nome;
+	}
+
 	public static void main(String[] args) {
 		Funcionario func = new Funcionario("João", "Desenvolvedor", 20);
 		System.out.println("Nome: " + func.nome);
@@ -22,7 +26,7 @@ class Funcionario {
 
 		System.out.println();
 
-		Funcionario func2 = new Funcionario("Maria", "Desenvolvedora", 19);
+		Funcionario func2 = new Funcionario("Maria"); // Usando construtor sobrecarregado
 		System.out.println("Nome: " + func2.nome);
 		System.out.println("Cargo: " + func2.cargo);
 		System.out.println("Idade: " + func2.idade);
