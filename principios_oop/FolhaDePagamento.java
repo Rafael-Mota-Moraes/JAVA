@@ -5,6 +5,7 @@ public class FolhaDePagamento {
 		Funcionario func = new Funcionario("João", 6200);
 		// Nome não é público, logo a linha abaixo não funciona
 		// func.nome = "Carlos";
-		System.out.println(func.nome);
+		// Nome agora possui o modificador de acesso "private", logo só pode ser acessado de dentro de sua classe, e a linha abaixo não funciona
+		// System.out.println("Nome da main: " + func.nome);
 	}
 }

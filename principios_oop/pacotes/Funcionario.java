@@ -1,7 +1,7 @@
 package pacotes;
 
 public class Funcionario {
-	public String nome;
+	private String nome;
 	double salario;
 
 	public Funcionario(String nomeInit, double salarioInit) {
