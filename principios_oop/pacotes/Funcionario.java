@@ -4,7 +4,7 @@ public class Funcionario {
 	private String nome;
 	double salario;
 
-	public Funcionario(String nomeInit, double salarioInit) {
+	protected Funcionario(String nomeInit, double salarioInit) {
 		nome = nomeInit;
 		salario = salarioInit;
 
