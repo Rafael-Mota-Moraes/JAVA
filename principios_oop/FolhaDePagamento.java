@@ -19,5 +19,6 @@ public class FolhaDePagamento {
 		func.aumentarSalario(10);
 		System.out.println(func.obterInfo());
 		Funcionario.exibirValor(10);
+		System.out.println(Funcionario.numero);
 	}
 }

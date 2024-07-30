@@ -3,6 +3,7 @@ package pacotes;
 public class Funcionario {
 	private String nome;
 	public double salario;
+	static int numeroStatico = 10;
 
 	public Funcionario(String nomeInit, double salarioInit) {
 		nome = nomeInit;
