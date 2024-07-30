@@ -14,5 +14,7 @@ public class FolhaDePagamento {
 		Funcionario func = new Funcionario("João", 6200.00);
 		func.aumentarSalario(800);
 		System.out.println(func.obterInfo());
+		func.alterarQualquerSalario(func, 10000.00);
+		System.out.println(func.obterInfo());
 	}
 }

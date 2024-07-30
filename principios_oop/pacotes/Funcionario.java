@@ -2,7 +2,7 @@ package pacotes;
 
 public class Funcionario {
 	private String nome;
-	private double salario;
+	public double salario;
 
 	public Funcionario(String nomeInit, double salarioInit) {
 		nome = nomeInit;
@@ -19,6 +19,10 @@ public class Funcionario {
 
 	public void aumentarSalario(double aumento) {
 		salario += aumento;
+	}
+
+	public void alterarQualquerSalario(Funcionario func, double novoSalario) {
+		func.salario = novoSalario;
 	}
 
 }
