@@ -12,6 +12,7 @@ public class FolhaDePagamento {
 		// TestePackage tp = new TestePackage();
 
 		Funcionario func = new Funcionario("João", 6200.00);
+		func.aumentarSalario(800);
 		System.out.println(func.obterInfo());
 	}
 }
