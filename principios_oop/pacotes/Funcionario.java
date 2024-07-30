@@ -11,4 +11,6 @@ public class Funcionario {
 		System.out.println("Nome:  " + nome);
 		System.out.println("Salário: " + salario);
 	}
+
+	Funcionario() {} // modificador de acesso padrão, só pode ser acessado por classes no mesmo pacote.
 }
