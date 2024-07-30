@@ -21,6 +21,11 @@ public class Funcionario {
 		salario += aumento;
 	}
 
+	public void aumentarSalario(int porcentagem) {
+		salario += salario * porcentagem / 100;
+	}
+
+
 	public void alterarQualquerSalario(Funcionario func, double novoSalario) {
 		func.salario = novoSalario;
 	}

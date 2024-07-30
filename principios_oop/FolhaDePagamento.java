@@ -12,9 +12,11 @@ public class FolhaDePagamento {
 		// TestePackage tp = new TestePackage();
 
 		Funcionario func = new Funcionario("João", 6200.00);
-		func.aumentarSalario(800);
+		func.aumentarSalario(800.00);
 		System.out.println(func.obterInfo());
 		func.alterarQualquerSalario(func, 10000.00);
+		System.out.println(func.obterInfo());
+		func.aumentarSalario(10);
 		System.out.println(func.obterInfo());
 	}
 }
