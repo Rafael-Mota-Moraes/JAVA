@@ -30,4 +30,8 @@ public class Funcionario {
 		func.salario = novoSalario;
 	}
 
+	public static void exibirValor(int valor) {
+		System.out.println("O valor é: " + valor);
+	}
+
 }
