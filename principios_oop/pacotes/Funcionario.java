@@ -2,15 +2,18 @@ package pacotes;
 
 public class Funcionario {
 	private String nome;
-	double salario;
+	private double salario;
 
-	protected Funcionario(String nomeInit, double salarioInit) {
+	public Funcionario(String nomeInit, double salarioInit) {
 		nome = nomeInit;
 		salario = salarioInit;
-
-		System.out.println("Nome:  " + nome);
-		System.out.println("Salário: " + salario);
 	}
 
-	Funcionario() {} // modificador de acesso padrão, só pode ser acessado por classes no mesmo pacote.
+	// Funcionario() {} // modificador de acesso padrão, só pode ser acessado por classes no mesmo pacote.
+
+
+	public String obterInfo() {
+		return "Nome: " + nome + ", Salário: " + salario;
+	}
+
 }
