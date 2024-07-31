@@ -10,6 +10,7 @@ class InformaRegras {
 }
 
 public class Previdencia {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		InformaRegras regras = new InformaRegras();
 		// Uso do método obsoleto
