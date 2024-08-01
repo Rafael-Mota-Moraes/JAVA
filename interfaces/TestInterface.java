@@ -1,4 +1,12 @@
 interface Animal {
+	/* 
+	Regras das interfaces
+	- Não pode ser instanciada.
+	- Todos os atributos dentro de uma interface são obrigatoriamente public final e static.
+	- Todos os métodos devem ser o mais acessível possível, ou seja, devem ser public.
+	- A palavra abstract no método é opcional
+	- Uma interface pode estender outras interfaces
+	*/ 
 	void fazerSom(); // Método abstrato
 }
 
