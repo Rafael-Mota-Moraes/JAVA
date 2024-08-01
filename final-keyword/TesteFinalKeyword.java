@@ -1,4 +1,5 @@
-class ExemploFinal {
+// NÃO PODE SER EXTENDIDA!
+final class ExemploFinal {
 	// Definição de constante - use de final
 	final int CODIGO_FIXO = 10;
 
