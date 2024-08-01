@@ -9,7 +9,12 @@ class ExemploFinal {
 }
 
 
-public class TesteFinalKeyword {
+public class TesteFinalKeyword extends ExemploFinal {
+	// Vai gerar erro de compilação!
+	/* final void meuMetodo() {
+		System.out.println("Método sobrescrito");
+	} */
+
 	public static void main(String[] args) {
 		ExemploFinal testFinal = new ExemploFinal();
 		System.out.println("Valor da constante: " + testFinal.CODIGO_FIXO);
